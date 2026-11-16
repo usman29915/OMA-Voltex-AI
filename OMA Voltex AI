@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMA VOLTEX AI</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #080d18;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background: #111c30;
+            padding: 25px;
+            border-bottom: 2px solid #d6aa55;
+        }
+
+        h1 {
+            color: #d6aa55;
+        }
+
+        .container {
+            padding: 25px;
+        }
+
+        .card {
+            background: #152238;
+            border: 1px solid #d6aa55;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 15px auto;
+            max-width: 400px;
+        }
+
+        button {
+            background: #d6aa55;
+            color: #080d18;
+            padding: 12px 22px;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>OMA VOLTEX AI</h1>
+    <p>Global Electrical Intelligence Platform</p>
+</header>
+
+<div class="container">
+
+    <h2>Welcome to OMA VOLTEX AI</h2>
+    <p>Your Electrical Intelligence Assistant</p>
+
+    <div class="card">
+        <h3>Electrical AI Assistant</h3>
+        <p>Smart Electrical Help</p>
+        <button onclick="alert('AI Assistant Coming Soon')">
+            Open Assistant
+        </button>
+    </div>
+
+    <div class="card">
+        <h3>Electrical Calculators</h3>
+        <p>Voltage • Current • Power</p>
+    </div>
+
+    <div class="card">
+        <h3>Electrical Dictionary</h3>
+        <p>Learn Electrical Terms</p>
+    </div>
+
+    <div class="card">
+        <h3>Fault Diagnosis</h3>
+        <p>Electrical Problem Solving</p>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OMA VOLTEX AI</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #F7F8FA;
+    color: #354052;
+}
+header {
+    background: #FFFFFF;
+    padding: 22px;
+    border-bottom: 1px solid #DDE2E8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo {
+    color: #718096;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.logo span {
+    color: #A7B0BB;
+}
+.tagline {
+    font-size: 12px;
+    color: #8994A2;
+}
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 28px 18px;
+}
+.welcome {
+    background: linear-gradient(120deg, #FFFFFF, #E9EDF2);
+    border: 1px solid #D9DEE5;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 8px 25px #27364b0c;
+}
+.welcome h1 {
+    color: #69798C;
+    margin-top: 0;
+}
+.welcome p {
+    color: #7C8795;
+}
+.section-title {
+    margin: 30px 0 15px;
+    color: #718096;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 16px;
+}
+.card {
+    background: #FFFFFF;
+    border: 1px solid #DDE2E8;
+    border-radius: 15px;
+    padding: 22px;
+    box-shadow: 0 5px 18px #27364b0a;
+}
+.card h3 {
+    color: #68788B;
+}
+.card p {
+    color: #929BA7;
+    font-size: 14px;
+}
+.symbol {
+    font-size: 27px;
+}
+button {
+    background: #E9EDF2;
+    border: 1px solid #C9D1DA;
+    color: #536477;
+    padding: 11px 18px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    background: #DCE3EB;
+}
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #9AA3AE;
+    font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div>
+        <div class="logo">OMA <span>VOLTEX AI</span></div>
+        <div class="tagline">GLOBAL ELECTRICAL INTELLIGENCE PLATFORM</div>
+    </div>
+    <button onclick="alert('Welcome to OMA VOLTEX AI')">
+        Get Started
+    </button>
+</header>
+
+<main>
+    <section class="welcome">
+        <h1>Welcome to OMA VOLTEX AI</h1>
+        <p>Your smart electrical knowledge and assistance platform.</p>
+        <button onclick="alert('Your electrical journey starts here!')">
+            Explore Platform
+        </button>
+    </section>
+
+    <h2 class="section-title">Electrical Intelligence</h2>
+
+    <section class="grid">
+        <div class="card">
+            <div class="symbol">⚡</div>
+            <h3>AI Assistant</h3>
+            <p>Electrical questions and smart guidance.</p>
+            <button onclick="alert('AI Assistant - Coming Soon')">Open</button>
+        </div>
+
+        <div class="card">
+            <div class="symbol">🔌</div>
+            <h3>Calculators</h3>
+            <p>Voltage, current, power and more.</p>
+            <button onclick="alert('Calculators - Coming Soon')">Open</button>
+        </div>
+
+        <div class="card">
+            <div class="symbol">📘</div>
+            <h3>Dictionary</h3>
+            <p>Electrical terms and knowledge.</p>
+            <button onclick="alert('Dictionary - Coming Soon')">Open</button>
+        </div>
+
+        <div class="card">
+            <div class="symbol">🛠️</div>
+            <h3>Fault Diagnosis</h3>
+            <p>Understand common electrical faults.</p>
+            <button onclick="alert('Fault Diagnosis - Coming Soon')">Open</button>
+        </div>
+
+        <div class="card">
+            <div class="symbol">📐</div>
+            <h3>Wiring Guides</h3>
+            <p>Learn electrical wiring concepts.</p>
+            <button onclick="alert('Wiring Guides - Coming Soon')">Open</button>
+        </div>
+
+        <div class="card">
+            <div class="symbol">📦</div>
+            <h3>Business Tools</h3>
+            <p>Inventory and shop management.</p>
+            <button onclick="alert('Business Tools - Coming Soon')">Open</button>
+        </div>
+    </section>
+</main>
+
+<footer>
+    OMA VOLTEX AI © 2026 | Powered by OMA GROUP
+</footer>
+
+</body>
+</html>
